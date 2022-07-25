@@ -1,0 +1,374 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.nav{
+    display: flex;
+    background-color: rgb(224, 222, 220);
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    align-items: center;
+    padding: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+    top: 0;
+    
+}
+.name{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    vertical-align:middle;
+    text-align: center;
+    flex-shrink: 0;
+    
+}
+.navbar{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 55%;
+    vertical-align: middle;
+    align-items: center;
+}
+
+.navhome{
+    color: rgb(145, 221, 221);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(106, 106, 106);
+    transition: color 1s;
+    margin: 0px 1.2rem 0px 1.2rem;
+}
+
+.name01{
+    padding-bottom: 15px;
+    text-align: none;
+    letter-spacing: 0.3rem;
+    font-size: 25px;
+    flex-shrink: 0;
+}
+
+.occupation{
+    letter-spacing: 0.2rem;
+    font-size: small;
+    color: gray
+    ;
+}
+
+.login{
+    margin-left: 15px;
+    display: flex;
+    height: 37px;
+    text-align: right;
+    align-items: center;
+    flex: 0 0 119px;
+    
+}
+
+.missingprofile{
+    height: 100%;
+   
+    
+
+
+}
+
+.missingprofilepic{
+    height: 100%;
+    background-color: aqua;
+    border-radius: 50%;
+}
+html{
+    margin-top: 120px;
+}
+
+body{
+    background: url(https://picsum.photos/1920);
+    background-attachment: fixed;
+    height: 150vh;
+   
+}
+
+.page1{
+    text-align: center;
+    margin-top: 150px;
+    height: 100vh;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.header01{
+    padding: 20px;
+    font-size: 30px;
+    width: 800px;
+    
+}
+
+.success{
+    padding: 20px;
+    font-size: 35px;
+    letter-spacing: 2rem;
+}
+
+.para2{
+    font-size: 25px;
+    flex-shrink: 0;
+    width: 600px;
+}
+
+.button1{
+    padding: 50px;
+    width: 300px;
+
+}
+
+a:hover{
+    cursor: pointer;
+    color: rgb(136, 194, 194);
+}
+
+.page2 *{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+button{
+    padding: 20px 30px 20px 30px ;
+    background-color: black;
+    color: aliceblue;
+    border: none;
+    letter-spacing: 0.12rem;
+    margin: 20px;
+
+}
+
+main{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.page2{
+    width: 100%;
+    background-color: aliceblue;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    
+   
+}
+
+.aboutme{
+    /* background-color: aqua; */
+    height: 100%;
+    flex: 1 0 600px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-shrink: 0;
+
+   }
+
+.page2_text{
+    /* background-color: antiquewhite; */
+    flex: 1 0;
+    width: 380px;
+    position: absolute;
+    left: 40%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+.page2_01{
+    padding: 20px;
+    width: 30px;
+}
+
+p{
+    padding: 20px;
+    letter-spacing: 0.1rem;
+}
+
+
+.mypicture{
+    /* background-image: url(./image/mypic03.webp); */
+    overflow: hidden;
+    flex: 1 0 500px;
+    height: 100%;
+
+  
+}
+
+/* img{
+    width: auto;
+    height: auto;
+    object-fit: cover;
+} */
+
+.myimage{
+    width: 100%;
+    height: 85vh;
+    object-fit: cover;
+}
+
+.dashline{
+    border-bottom: 2px solid black;
+    width: 50px;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    
+}
+
+.readmebutton{
+    width: 40%;
+    font-size: 16px;
+}
+
+/* service */
+
+.service_page1{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 1051px;
+    height: 60vh;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    /* justify-content: center; */
+   
+    
+    margin-top: 100px;
+    
+}
+
+.service_page1  * {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.dashline1{
+
+    height: 50px;
+    width: 40px;
+    border-bottom: 4px solid black;
+    align-self: flex-start;
+    margin: 0px 0px 30px 16px;
+
+    
+}   
+
+.serviceheader{
+    
+    align-self: flex-start;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    letter-spacing: 0.3rem;
+    margin-bottom: 100px;
+    font-weight: bolder;
+    flex-shrink: 0;
+    padding-left: 15px;
+
+}
+
+.serviceselection{
+    /* background-color: aliceblue; */
+    /* border-bottom: 2px solid whitesmoke; */
+    
+    flex: 0 0;
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-between;
+    max-width: 500px;
+
+}
+
+.dash2{
+    background-color: white;
+    width: 100%;
+    height: 2px;
+    box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.35);
+    
+}
+
+.selection{
+    padding: 0px 0px 10px 0px;
+
+
+}
+
+
+.servicepromotion{
+    
+    flex: 1 0;
+    display: flex;
+    height: 600px;
+    width: 1000px;
+    margin-top: 50px;
+    
+    justify-content: center;
+    gap: 30px;
+    max-width: 80vw;
+
+}
+
+.promotion{
+    width: 280px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 280px;
+    align-items: center;
+    justify-content: space-between;
+    gap: px;
+    height: 40vh;
+    padding: 31px;
+    
+
+}
+
+.promotion1_heading1{
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 0.08rem;
+    text-align: center;
+    vertical-align: top;
+    height: 40px;
+    margin-top: 10px;
+} 
+
+.promotion1_description{
+    font-size: 16px;
+    text-align: center;
+    width: 270px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.promotion p{
+    padding: 0;
+}
+
+.promotion1_time{
+    margin-bottom: 10px;
+}
+
+
+.promotion_button{
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px 15px 10px 15px;
+    justify-self: end;
+    letter-spacing: 0.2rem;
+    margin: 40px 0px 0px 0px;
+}
